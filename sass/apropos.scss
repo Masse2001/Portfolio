@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MaSuperPolice";
+    src: url("index/Poppins-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "TitlePolice";
+    src: url("index/Inter-Light.ttf");
+}
+
+
+header{
+    a{
+        text-decoration: none;
+        color: white;
+    }  
+}
+
+.me__section{
+    position: relative;
+    .me{
+        &__msg{
+            position: absolute;
+            text-align: center;
+        }
+
+        &__img{
+            &__cadre{
+                position: absolute;
+                text-align: center;
+            }
+            width:50%;
+            height: auto;
+        }
+    }
+}

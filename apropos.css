@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MaSuperPolice";
+  src: url("index/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "TitlePolice";
+  src: url("index/Inter-Light.ttf");
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.me__section {
+  position: relative;
+}
+.me__section .me__msg {
+  position: absolute;
+  text-align: center;
+}
+.me__section .me__img {
+  width: 50%;
+  height: auto;
+}
+.me__section .me__img__cadre {
+  position: absolute;
+  text-align: center;
+}
+
+/*# sourceMappingURL=apropos.css.map */
